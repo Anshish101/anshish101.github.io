@@ -1,0 +1,64 @@
+html{
+    background-color: darkgrey;
+    box-sizing: border-box;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.5rem;
+    color: black;
+    padding: 0;
+    width: auto;
+    display: block;
+    border: black solid 4px;
+    background-color: #ccc;
+    font-family:'Times New Roman';
+}
+
+.topic{
+    font-family: "Lucida Sans Typewriter", monospace;
+    background-color: #1f2f2f;
+    color: greenyellow;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+.explanation{
+    font-family: "Lucida Sans Typewriter", monospace;
+    display: grid;
+    background-color: dimgrey;
+    color: #dfefef;
+    padding: 10px;
+    margin-left: 1.5rem;
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.explanation span{
+    color: rgb(240, 244, 140);
+}
+
+
+.subheading{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    color: black;
+    border: solid black 3px;
+    background-color: #ccc;
+    padding: 20px 20px;
+    display: inline;
+    width: auto;
+}
+
+
+#above{
+    margin-bottom: 3rem;
+}
+

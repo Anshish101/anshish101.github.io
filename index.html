@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="html">
+        <h1>Html</h1>
+        <div>
+            <h2 class="subheading">elements</h2>
+            <p class="topic">HTML Anatomy ==> &ltp&gtHello World!&lt/p&gt</p>
+            <p class="explanation">An opening tag (&ltp&gt)<br>The content ("Hello World!" text)<br>A closing tag (&lt/p&gt)<br>A tag and the content between it is called an HTML element.</p>
+
+            <p class="topic">The Body</p>
+            <p class="explanation">Only content inside the opening and closing body tags can be displayed to the screen.</p>
+
+            <p class="topic">HTML Structure</p>
+            <p class="explanation">HTML is organized as a collection of family tree relationships.</p>
+
+            <p class="topic">Headings</p>
+            <p class="explanation">In HTML there are six different heading elements. From &lth1&gt to &lth6&gt.</p>
+
+            <p class="topic">Divs</p>
+            <p class="explanation">&ltdiv&gt element is short for 'division' or a container that divides the page into sections.</p>
+
+            <p class="topic">Attributes</p>
+            <p class="explanation">Attributes are content added to the opening tag of an element and can be used in several different ways from providing information to changing styling ["name=value"].</p>
+
+            <p class="topic">Displaying Text</p>
+            <p class="explanation">To display text in HTML we can use a paragraph or a span.</p>
+
+            <p class="topic">Styling Text</p>
+            <p class="explanation">&ltem&gt tag renders the text italic. &ltstrong&gt tag renders the text bold.</p>  
+
+            <p class="topic">Line Breaks</p>
+            <p class="explanation">&ltbr&gt tag is used to add a line break.</p>
+
+            <p class="topic">Unordered Lists</p>
+            <p class="explanation">&ltul&gt tag is to create a list of items in no particular order. The &ltli&gt or list item tag is used to describe an item in list.</p> 
+
+            <p class="topic">Ordered Lists</p>
+            <p class="explanation">Ordered Lists (&ltol&gt) are like unordered lists, except that each list item is numbered.</p> 
+
+            <p class="topic">Images</p>
+            <p class="explanation"><span>&ltimg src="image-location.jpg" /&gt</span></p> 
+
+            <p class="topic">Image ALts</p>
+            <p class="explanation"><span>&ltimg src="image-location.jpg" alt="Description of the image" /&gt</span></p> 
+            
+            <p class="topic">Videos</p>
+            <p class="explanation" id="above"><span>&ltvideo src="myVideo.mp4" width="320" height="240" controls&gtVideo not supported&lt/video&gt</span>Controls attribute instructs the browser to include basic video controls such as pausing and playing. </p>
+            
+            <h2 class="subheading">Structure</h2>
+
+            <p class="topic">&lt!Doctype HTML&gt</p>
+            <p class="explanation">It tells the browser what type of document to expect, along with what version of HTML is being used in the document</p>
+
+            <p class="topic">The &lthtml&gt Tag</p>
+            <p class="explanation">Anything between the opening and closing &lthtml&gt tags will be interpreted as HTML code.</p>
+
+            <p class="topic">The Head</p>
+            <p class="explanation">The &lthead&gt element contains the metadata for a web page. Metadata is information about the page that isn’t displayed directly on the web page.  It goes above our &ltbody&gt element.</p>
+
+            <p class="topic">Page Titles</p>
+            <p class="explanation">A browser’s tab displays the title specified in the &lttitle&gt tag. The &lttitle&gt tag is always inside of the &lthead&gt.</p>
+
+            <p class="topic">Linking to Other Web Pages</p>
+            <p class="explanation"><span>&lta href="https://www.wikipedia.org/"&gt This Is A Link To Wikipedia &lt/a&gt target="_blank"</span>You can add links to a web page by adding an anchor element &lta&gt and including the text of the link in between the opening and closing tags. Setting the target attribute to blank opens the relevant webpage in new window.</p>
+
+            <p class="topic">Linking to Relative Page</p>
+            <p class="explanation"><span>&lta href="./contact.html"&gt Contact &lt/a&gt</span>Anchor tag is used with a relative path to link from the current HTML file to the contact.html file in the same folder.</p>
+
+            <p class="topic">Linking At Will</p>
+            <p class="explanation">HTML allows you to turn nearly any element into a link by wrapping that element with an anchor element. For example an image can be made into a link by wrapping &ltimg/&gt tag inside an &lta&gt tag [&lta&gt&ltimg/&gt&lt/a&gt].</p>
+
+            <p class="topic">Linking to Same Page</p>
+            <p class="explanation"><span>&ltp id="paragraph"&gt&lt/p&gt</span><span>&lta href="#paragraph"&gt Paragraph &lt/a&gt</span>In order to link to a target on the same page, we must give the target an id. The target link is a string containing the # character and the target element’s id.</p>
+
+            <p class="topic">Comments</p>
+            <p class="explanation" id="above">Comments begin with &lt!-- and end with --&gt. Any characters in between will be ignored by your browser.</p>
+
+            <h2 class="subheading">Tables</h2>
+
+            <p class="topic">Create a Table</p>
+            <p class="explanation">We use &lttable&gt element to create a table in HTML.</p>
+
+            <p class="topic">Table Rows</p>
+            <p class="explanation">&lttr&gt element is used to add row inside a table.</p>
+
+            <p class="topic">Table Data</p>
+            <p class="explanation"> In HTML, you can add data using the table data element: &lttd&gt.</p>
+
+            <p class="topic">Table Headings</p>
+            <p class="explanation">To add titles to rows and columns, you can use the table heading element: &ltth&gt.</p>
+
+            <p class="topic">Table Borders</p>
+            <p class="explanation">We can use border style property in CSS to add border to our table.</p>
+
+            <p class="topic">Spanning Columns</p>
+            <p class="explanation"><span> &lttd colspan="2"&gtOut of Town&lt/td&gt</span>Data can span columns using the colspan attribute. The attribute accepts an integer (greater than or equal to 1) to denote the number of columns it spans across.</p>
+
+            <p class="topic">Spanning Rows</p>
+            <p class="explanation">The rowspan attribute is used for data that spans multiple rows. It accepts an integer (greater than or equal to 1) to denote the number of rows it spans across.</p>
+
+            <p class="topic">Table Body</p>
+            <p class="explanation">The &lttbody&gt  element should contain all of the table’s data, excluding the table headings.</p>
+
+            <p class="topic">Table Head</p>
+            <p class="explanation">Table’s column headings is stored inside &ltthead&gt element.</p>
+
+            <p class="topic">Table Footer</p>
+            <p class="explanation" id="above">The bottom part of a long table can also be sectioned off using the &lttfoot&gt element.</p>
+
+            <h2 class="subheading">Semantic HTML</h2>
+
+            <p class="topic">Header and Nav</p>
+            <p class="explanation"> A &ltheader&gt is a container usually for either navigational links or introductory content containing &lth1&gt to &lth6&gt headings. <br> A &ltnav&gt is used to define a block of navigation links such as menus and tables of contents. It can be used inside of the &ltheader&gt element but can also be used on its own.</p>
+
+            <p class="topic">Main and Footer</p>
+            <p class="explanation">The element &ltmain&gt is used to encapsulate the dominant content within a webpage. <br> &ltfooter&gt element contains information such as: <br> Contact information <br> Copyright informaton <br>Terms of Use </p>
+            
+            <p class="topic">Article and Section</p>
+            <p class="explanation">The &ltarticle&gt element holds content such as articles, blogs, comments, magazines, etc. <br> A website’s home page could be split into sections for the introduction, news items, and contact information using &ltsection&gt element.</p>
+
+            <p class="topic">The Aside Element</p>
+            <p class="explanation">&ltaside&gt element can be used to add information such as: <br> Bibliographies<br> Endnotes<br> Comments<br>Pull quotes<br>Editorial sidebars<br>Additional information</p>
+
+            <p class="topic">Figure and Figcaption</p>
+            <p class="explanation"><span>&lt;figure&gt;&lt;img src=&quot;overwatch.jpg&quot;&gt;&lt;figcaption&gt;This picture shows characters from Overwatch.&lt;/figcaption&gt;&lt;/figure&gt;</span>&lt;figure&gt; is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc. <br> &lt;figcaption&gt; is an element used to describe the media in the &lt;figure&gt; tag. Usually, &lt;figcaption&gt; will go inside &lt;figure&gt;.</p>
+
+            <p class="topic">Audio and Attributes</p>
+            <p class="explanation"><span>&lt;audio&gt;&lt;source src=&quot;iAmAnAudioFile.mp3&quot;type=&quot;audio/mp3&quot;&gt;&lt;/audio&gt;</span>The &lt;audio&gt; element is used to embed audio content into a document. &lt;source&gt; element is used to encapsulate our audio link.The audio type is scpecified by using type and named what kind of audio it is. <span>&lt;audio autoplay controls&gt;</span> Controls displays the audio controls into the browser such as play and mute.</p>
+
+            <p class="topic">Video and Embed</p>
+            <p class="explanation"><span>&lt;video src=&quot;coding.mp4&quot; controls&gt;Video not supported&lt;/video&gt;</span> <span>&lt;embed src=&quot;download.gif&quot;/&gt;</span>&lt;embed&gt; can be used to embed any media content including videos, audio files, and gifs from an external source but we mostly use it for gifs and flash videos.  </p>
+        </div>
+    </section>
+    
+</body>
+</html>
+
+
+<!--        <p class="topic"></p>
+            <p class="explanation"></p>            -->
